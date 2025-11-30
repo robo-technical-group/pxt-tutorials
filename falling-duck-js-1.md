@@ -235,6 +235,8 @@ autocomplete will show a list of properties for that variable. Start typing, or 
 (Use the arrow keys or your mouse to select an item.)
 Press TAB again to have autocomplete finish the typing for you.
 
+Want to get the autocomplete menu out of your way? Press ESC on your keyboard to dismiss the autocomplete menu.
+
 Still need help? As always, you can use the help (light bulb) at the bottom of the page to see the code that you're creating.
 hint~
 

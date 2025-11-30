@@ -9,7 +9,8 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "mazes-tutorial-blocks.md"
+        "mazes-tutorial-blocks.md",
+        "falling-duck-blocks-1.md"
     ],
     "testFiles": [
         "test.ts"

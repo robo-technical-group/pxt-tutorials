@@ -224,7 +224,19 @@ info.setLife(3)
 
 Now, let's make our hero fall and fly!
 
-1.  In the **Main** section, set the vertical acceleration of your hero sprite to **`100`**. The property is called **`ay`**.
+*   In the **Main** section, set the vertical acceleration of your hero sprite to **`100`**. The property is called **`ay`**.
+
+~hint How do I do this?
+On an empty line in your code window, start typing the name of your variable, heroSprite.
+As you type, the autocomplete feature will show a list of variables to help you.
+Finish typing the variable name, or press TAB on your keyboard to have autocomplete finish the typing for you.
+After entering the variable name, press the dot/period key "." and
+autocomplete will show a list of properties for that variable. Start typing, or select from the menu.
+(Use the arrow keys or your mouse to select an item.)
+Press TAB again to have autocomplete finish the typing for you.
+
+Still need help? As always, you can use the help (light bulb) at the bottom of the page to see the code that you're creating.
+hint~
 
 Restart the simulator.
 

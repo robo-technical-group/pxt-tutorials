@@ -134,6 +134,8 @@ Watch the simulator restart.
 
 Your hero now falls with gravity!
 
+---
+
 Now, let's make our hero fly when we press any button.
 
 1.  From the ``||controller:Controller||`` drawer, drag a   
@@ -313,6 +315,8 @@ Wait for the simulator to restart.
 
 Now, scoring projectiles fly in from the right side of the screen every 1 1/2 seconds!
 
+---
+
 Finally, let's make it so that when our hero touches a scoring projectile, the player earns a point.
 
 1.  From the ``||sprites:Sprites||`` drawer, drag a   
@@ -397,6 +401,8 @@ container, **beneath** the ``||logic(noclick):if||`` block.
 Watch the simulator restart.
 
 Now, logs fly in from the right side of the screen every 1 1/2 seconds!
+
+---
 
 We don't need to see the scoring projectile, so let's make it invisible.
 

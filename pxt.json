@@ -10,7 +10,9 @@
         "main.blocks",
         "main.ts",
         "mazes-tutorial-blocks.md",
-        "falling-duck-blocks-1.md"
+        "falling-duck-blocks-1.md",
+        "falling-duck-js-1.md",
+        "falling-duck-py-1.md"
     ],
     "testFiles": [
         "test.ts"

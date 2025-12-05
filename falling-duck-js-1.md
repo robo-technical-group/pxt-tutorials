@@ -1,4 +1,4 @@
-# Falling Duck Blocks Level 1
+# Falling Duck JavaScript Level 1
 ### @explicitHints true
 
 ## Falling Duck! @showdialog

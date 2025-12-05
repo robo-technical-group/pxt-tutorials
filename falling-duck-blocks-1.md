@@ -22,9 +22,13 @@ container already on your workspace.
 1.  In the image editor, select **Done** to set your sprite's image.
 
 ~hint What is a sprite?
-A sprite is an image that represents a character or object in your game.
+
+A *sprite* is an image that represents a character or object in your game.
+
 Sprites can move around the screen and interact with other sprites.
+
 Sprites have properties like its image, position, velocity, and kind.
+
 hint~
 
 Watch the simulator restart.
@@ -32,15 +36,17 @@ Watch the simulator restart.
 Your hero appears in the middle of the screen!
 
 ~hint Why is the simulator so small?
+
 If you need to see your project in more detail,
 you can make the simulator larger by selecting the
-"Launch in fullscreen" (also called the "zoom") button.
+**Launch in fullscreen** (also called the *zoom*) button.
 
 Select the zoom button again to shrink the simulator
 back into the corner of the screen.
 
 Nearby buttons mute the sound and
 stop/hide the simulator.
+
 hint~
 
 Select the hint (light bulb) below if you need help.
@@ -291,24 +297,36 @@ block to the **bottom** of your new container.
 1.  Change the property from *x* to **top**.
 
 ~hint How do I change the variable name?
+
 Select the variable name in the block.
+
 A menu appears where you can select **Rename variable...**.
+
 hint~
 
 ~hint What is a millisecond?
+
 A millisecond is one thousandth of a second.
 So, 1500 milliseconds is one and a half seconds.
+
 hint~
 
 ~hint Where will the projectile appear?
+
 Because the projectile's x velocity is negative, it will fly to the left.
+
 Because the projectile's y velocity is zero, it will not move up or down.
+
 The Arcade engine automatically creates the projectile just off the right side of the screen so that it flies across the screen.
+
 Feel free to try other velocity values to see how they affect the projectile's movement and starting position.
+
 hint~
 
 ~hint How do I change the size of an image in the image editor?
+
 In the bottom left corner of the image editor, change the values for the width and height of the image.
+
 hint~
 
 Wait for the simulator to restart.

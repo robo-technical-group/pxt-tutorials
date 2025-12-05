@@ -42,8 +42,11 @@ namespace SpriteKind {
 Use the hint below (light bulb) to see how your code file should look after completing these steps.
 
 ~hint Why use sections in my code file? Does the order matter?
+
 Using sections in your code file helps organize your code into logical parts, making it easier to read and maintain.
+
 The order of these sections has been chosen to reduce the chance of unexpected errors in your code. For example, global variables are declared before they are used in functions or event handlers.
+
 hint~
 
 #### ~ tutorialhint
@@ -97,9 +100,13 @@ heroSprite = sprites.create(sprites.duck.duck3, SpriteKind.Player)
 ```
 
 ~hint What is a sprite?
-A sprite is an image that represents a character or object in your game.
+
+A *sprite* is an image that represents a character or object in your game.
+
 Sprites can move around the screen and interact with other sprites.
+
 Sprites have properties like its image, position, velocity, and kind.
+
 hint~
 
 Restart the simulator.
@@ -107,22 +114,26 @@ Restart the simulator.
 Your hero appears in the middle of the screen!
 
 ~hint Why is the simulator so small?
+
 If you need to see your project in more detail,
 you can make the simulator larger by selecting the
-"Launch in fullscreen" (also called the "zoom") button.
+**Launch in fullscreen** (also called the *zoom*) button.
 
 Select the zoom button again to shrink the simulator
 back into the corner of the screen.
 
 Nearby buttons mute the sound and
 stop/hide the simulator.
+
 hint~
 
 ~hint Why is the simulator gray? Why doesn't the simulator automatically restart like in Blocks?
+
 When using a typing language in MakeCode, the simulator does not automatically restart
 after every change. This is to help you avoid losing your place while typing.
 
 To restart the simulator, select the "Restart" button (circular arrow) in the simulator screen.
+
 hint~
 
 As always, if you need help, use the hint below to see how your code should look after completing these steps.
@@ -227,17 +238,22 @@ Now, let's make our hero fall and fly!
 *   In the **Main** section, set the vertical acceleration of your hero sprite to **`100`**. The property is called **`ay`**.
 
 ~hint How do I do this?
-On an empty line in your code window, start typing the name of your variable, heroSprite.
-As you type, the autocomplete feature will show a list of variables to help you.
-Finish typing the variable name, or press TAB on your keyboard to have autocomplete finish the typing for you.
-After entering the variable name, press the dot/period key "." and
-autocomplete will show a list of properties for that variable. Start typing, or select from the menu.
-(Use the arrow keys or your mouse to select an item.)
-Press TAB again to have autocomplete finish the typing for you.
 
-Want to get the autocomplete menu out of your way? Press ESC on your keyboard to dismiss the autocomplete menu.
+1.  On an empty line in your code window, start typing the name of your variable, `heroSprite`.
+
+1.  As you type, the autocomplete feature will show a list of variables to help you.
+
+1.  Finish typing the variable name, or press **TAB** on your keyboard to have autocomplete finish the typing for you.
+
+1.  After entering the variable name, press the **dot/period key** "." and
+autocomplete will show a list of properties for that variable. Start typing, or select from the menu.   
+(Use the arrow keys or your mouse to select an item.)   
+Press **TAB** again to have autocomplete finish the typing for you.
+
+Want to get the autocomplete menu out of your way? Press **ESC** on your keyboard to dismiss the autocomplete menu.
 
 Still need help? As always, you can use the help (light bulb) at the bottom of the page to see the code that you're creating.
+
 hint~
 
 Restart the simulator.
@@ -256,12 +272,15 @@ Restart the simulator.
 Now, when you press any button, your hero flies up!
 
 ~hint How does an event handler work in JavaScript/TypeScript?
+
 An event handler is a function that runs in response to a specific event, such as a button press or a collision between sprites.
 
 When the event occurs, the code inside the event handler function is executed.
+
 In the version that is provided in the code snippet, the event handler uses an anonymous function, which is a function without a name. This is sometimes called an "inline function."
 
 This is different from how an event handler works in Python, where a named function must be used.
+
 hint~
 
 #### ~ tutorialhint
@@ -375,25 +394,38 @@ Now, let's create the scoring projectile that the player will touch to earn poin
 1.  Set the **top** property of the **`scoreProjectile`** to **`0`** so that it starts at the top of the screen.
 
 ~hint What is a millisecond?
+
 A millisecond is one thousandth of a second.
 So, 1500 milliseconds is one and a half seconds.
+
 hint~
 
 ~hint Where will the projectile appear?
+
 Because the projectile's x velocity is negative, it will fly to the left.
+
 Because the projectile's y velocity is zero, it will not move up or down.
+
 The Arcade engine automatically creates the projectile just off the right side of the screen so that it flies across the screen.
+
 Feel free to try other velocity values to see how they affect the projectile's movement and starting position.
+
 hint~
 
 ~hint How do I change the size of an image in the image editor?
+
 In the bottom left corner of the image editor, change the values for the width and height of the image.
+
 hint~
 
 ~hint How do I know which function argument is which?
+
 When you hover your mouse over a function, a tooltip appears that describes each argument in order.
+
 This is especially helpful for functions that take multiple arguments.
+
 Give it a try with the createProjectileFromSide function!
+
 hint~
 
 Restart the simulator.

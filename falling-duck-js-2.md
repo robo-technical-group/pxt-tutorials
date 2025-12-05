@@ -208,10 +208,9 @@ you should see the flying duck animation!
 
 ~hint Why do we need the isAnimated variable?
 
----
-
 Without the ``||variables(noclick):isAnimated||`` variable,
 the animation would restart every time the player pressed a button.
+
 hint~
 
 ---

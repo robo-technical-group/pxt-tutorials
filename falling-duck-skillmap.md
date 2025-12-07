@@ -44,6 +44,8 @@
 
 ### falling-duck-blocks-finish
 
+* name: Falling Duck in Blocks - Certificate of Completion
+* description: Congratulations on completing the Falling Duck game in Blocks!
 * type: certificate
 * kind: completion
 * url: https://robo-technical-group.github.io/pxt-tutorials/assets/pdf/falling_duck_blocks_certificate.pdf
@@ -88,6 +90,8 @@
 
 ### falling-duck-js-finish
 
+* name: Falling Duck in JavaScript - Certificate of Completion
+* description: Congratulations on completing the Falling Duck game in JavaScript!
 * type: certificate
 * kind: completion
 * url: https://robo-technical-group.github.io/pxt-tutorials/assets/pdf/falling_duck_js_certificate.pdf
@@ -132,6 +136,8 @@
 
 ### falling-duck-py-finish
 
+* name: Falling Duck in Python - Certificate of Completion
+* description: Congratulations on completing the Falling Duck game in Python!
 * type: certificate
 * kind: completion
 * url: https://robo-technical-group.github.io/pxt-tutorials/assets/pdf/falling_duck_python_certificate.pdf

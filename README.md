@@ -1,22 +1,18 @@
+# Tutorials for Microsoft MakeCode
 
-> Open this page at [https://robo-technical-group.github.io/pxt-tutorials/](https://robo-technical-group.github.io/pxt-tutorials/)
+## Mazes for MakeCode Arcade
 
-## Use as Extension
+*   Tutorial: <https://arcade.makecode.com/#tutorial:https://github.com/robo-technical-group/pxt-tutorials/mazes-tutorial-blocks>
 
-This repository can be added as an **extension** in MakeCode.
+## Falling Duck
 
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/robo-technical-group/pxt-tutorials** and import
+The *Falling Duck* skillmap has a path for each language. Each path has four levels, starting with the basic game and progressing to more advanced features.
 
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/robo-technical-group/pxt-tutorials** and click import
+*   Skillmap: <https://arcade.makecode.com/--skillmap#github:robo-technical-group/pxt-tutorials/falling-duck-skillmap>
+*   Level 1 tutorials
+    *   Blocks: <https://arcade.makecode.com/#tutorial:https://github.com/robo-technical-group/pxt-tutorials/falling-duck-blocks-1>
+    *   JavaScript: <https://arcade.makecode.com/#tutorial:https://github.com/robo-technical-group/pxt-tutorials/falling-duck-js-1>
+    *   Python: <https://arcade.makecode.com/#tutorial:https://github.com/robo-technical-group/pxt-tutorials/falling-duck-py-1>
 
 #### Metadata (used for search, rendering)
 

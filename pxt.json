@@ -15,7 +15,14 @@
         "falling-duck-py-1.md",
         "falling-duck-blocks-2.md",
         "falling-duck-js-2.md",
-        "falling-duck-py-2.md"
+        "falling-duck-py-2.md",
+        "falling-duck-skillmap.md",
+        "falling-duck-blocks-3.md",
+        "falling-duck-blocks-4.md",
+        "falling-duck-js-3.md",
+        "falling-duck-js-4.md",
+        "falling-duck-py-3.md",
+        "falling-duck-py-4.md"
     ],
     "testFiles": [
         "test.ts"

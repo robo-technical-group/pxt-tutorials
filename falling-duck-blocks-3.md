@@ -194,7 +194,7 @@ function initLevelSettings () {
 
 ## Congratulations! @showdialog
 
-You did it! You built *Falling Duck* Level 2!
+You did it! You built *Falling Duck* Level 3!
 
 Continue to the next level to add more features to your game,
 or give these enhancements a try on your own:

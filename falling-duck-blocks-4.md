@@ -271,6 +271,8 @@ You did it! You built *Falling Duck* Level 4!
 Continue to the next level to add more features to your game,
 or give these enhancements a try on your own:
 
+*   When selecting difficulty, enhance the screen by setting a background color or image.
+*   Enhance the difficulty menu by adding a title and custom frame.
 *   Add more log images to the arrays to increase variety. Try other obstacles, too!
 *   Change the speed and frequency of the projectiles to make the game easier or harder.
 *   Add sound effects when the player scores points or loses a life.

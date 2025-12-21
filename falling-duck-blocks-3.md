@@ -466,7 +466,7 @@ function createProjectiles () {
     bottomSprite = sprites.createProjectileFromSide(BOTTOM_IMAGES[imageIndex], projectileVx, 0)
     topSprite.top = 0
     bottomSprite.bottom = scene.screenHeight()
-    nextProjectileTile = game.runtime() + LEVEL_PROJECTILE_FREQUENCIES[level]
+    nextProjectileTime = game.runtime() + LEVEL_PROJECTILE_FREQUENCIES[level]
 }
 let imageIndex = 0
 let bottomSprite: Sprite = null
@@ -479,6 +479,7 @@ let LEVEL_STARTING_SCORES: number[] = []
 let LEVEL_PROJECTILE_FREQUENCIES: number[] = []
 let mySprite: Sprite = null
 let nextProjectileTime: number = 0
+let level: number = 0
 scene.setBackgroundColor(9)
 effects.blizzard.startScreenEffect()
 info.setScore(0)
@@ -489,6 +490,7 @@ projectileVx = -45
 initBottomImages()
 initTopImages()
 let isAnimated: boolean = false
+initLevelSettings()
 game.onUpdate(function () {
     if (mySprite.top < 0 || mySprite.bottom > scene.screenHeight()) {
         game.gameOver(false)
@@ -508,7 +510,7 @@ game.onUpdate(function () {
         mySprite.setImage(sprites.duck.duck3)
         isAnimated = false
     }
-    if (game.runtime() >= nextProjectileTile) {
+    if (game.runtime() >= nextProjectileTime) {
         createProjectiles()
     }
     if (level < LEVEL_STARTING_SCORES.length - 1) {

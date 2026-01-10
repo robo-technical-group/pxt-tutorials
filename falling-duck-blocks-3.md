@@ -138,12 +138,13 @@ block.
 ``||logic:>=||``
 ``||variables(arrays):LEVEL_STARTING_SCORES||``
 ``||arrays:get value at||``
+``||variables:level||``
 ``||math:+ (1)||``
 1.  Inside of this new ``||logic(noclick):if||`` container, add a block that plays a sound effect. You can find one in the ``||music:Music||`` drawer.
 1.  Below the sound effect block, add a block from the ``||variables:Variables||`` drawer to   
 ``||variables:change (level) by (1)||``
 1.  Finally, give the player an extra life when they level up. Use a block from the ``||info:Info||`` drawer to   
-``||info:change life by (1)||``   
+``||info:change life by (-1)||``   
 Be sure to change the default value to **`1`**.
 
 Review the code that we just built.

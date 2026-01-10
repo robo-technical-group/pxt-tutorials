@@ -22,14 +22,17 @@
         "falling-duck-js-3.md",
         "falling-duck-js-4.md",
         "falling-duck-py-3.md",
-        "falling-duck-py-4.md"
+        "falling-duck-py-4.md",
+        "falling-duck-blocks-5.md",
+        "falling-duck-js-5.md",
+        "falling-duck-py-5.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
     "targetVersions": {
-        "target": "2.0.62",
+        "target": "2.0.63",
         "targetId": "arcade"
     },
     "supportedTargets": [

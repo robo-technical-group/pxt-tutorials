@@ -7,7 +7,7 @@
 ## falling-duck-blocks
 
 * name: Falling Duck in Blocks
-* description: Build the Falling Duck game over four levels using Blocks.
+* description: Build the Falling Duck game over five levels using Blocks.
 * completionUrl: https://robo-technical-group.github.io/pxt-tutorials/assets/pdf/falling_duck_blocks_certificate.pdf
 
 ### falling-duck-blocks-1
@@ -29,7 +29,8 @@
 ### falling-duck-blocks-3
 
 * name: Falling Duck in Blocks - Level 3
-* description: Level 3
+* description: Add multiple levels to the game. As the player scores points,
+the game will increase in difficulty by making logs appear more quickly.
 * type: tutorial
 * next: falling-duck-blocks-4
 * url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-blocks-3
@@ -37,10 +38,18 @@
 ### falling-duck-blocks-4
 
 * name: Falling Duck in Blocks - Level 4
-* description: Level 4
+* description: Allow the player to select an initial difficulty level. This difficulty level influences the speed of the projectiles and the acceleration of the player's fall.
+* type: tutorial
+* next: falling-duck-blocks-5
+* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-blocks-4
+
+### falling-duck-blocks-5
+
+* name: Falling Duck in Blocks - Level 5
+* description: Customize the high scores routine for each difficulty level.
 * type: tutorial
 * next: falling-duck-blocks-finish
-* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-blocks-4
+* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-blocks-5
 
 ### falling-duck-blocks-finish
 
@@ -53,7 +62,7 @@
 ## falling-duck-js
 
 * name: Falling Duck in JavaScript / TypeScript
-* description: Build the Falling Duck game over four levels using JavaScript / TypeScript.
+* description: Build the Falling Duck game over five levels using JavaScript / TypeScript.
 * completionUrl: https://robo-technical-group.github.io/pxt-tutorials/assets/pdf/falling_duck_js_certificate.pdf
 
 ### falling-duck-js-1
@@ -75,7 +84,8 @@
 ### falling-duck-js-3
 
 * name: Falling Duck in JavaScript - Level 3
-* description: Level 3
+* description: Add multiple levels to the game. As the player scores points,
+the game will increase in difficulty by making logs appear more quickly.
 * type: tutorial
 * next: falling-duck-js-4
 * url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-js-3
@@ -83,10 +93,18 @@
 ### falling-duck-js-4
 
 * name: Falling Duck in JavaScript - Level 4
-* description: Level 4
+* description: Allow the player to select an initial difficulty level. This difficulty level influences the speed of the projectiles and the acceleration of the player's fall.
+* type: tutorial
+* next: falling-duck-js-5
+* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-js-4
+
+### falling-duck-js-5
+
+* name: Falling Duck in JavaScript - Level 5
+* description: Customize the high scores routine for each difficulty level.
 * type: tutorial
 * next: falling-duck-js-finish
-* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-js-4
+* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-js-5
 
 ### falling-duck-js-finish
 
@@ -99,7 +117,7 @@
 ## falling-duck-py
 
 * name: Falling Duck in Python
-* description: Build the Falling Duck game over four levels using Python.
+* description: Build the Falling Duck game over five levels using Python.
 * completionUrl: https://robo-technical-group.github.io/pxt-tutorials/assets/pdf/falling_duck_python_certificate.pdf
 
 ### falling-duck-py-1
@@ -121,7 +139,8 @@
 ### falling-duck-py-3
 
 * name: Falling Duck in Python - Level 3
-* description: Level 3
+* description: Add multiple levels to the game. As the player scores points,
+the game will increase in difficulty by making logs appear more quickly.
 * type: tutorial
 * next: falling-duck-py-4
 * url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-py-3
@@ -129,10 +148,18 @@
 ### falling-duck-py-4
 
 * name: Falling Duck in Python - Level 4
-* description: Level 4
+* description: Allow the player to select an initial difficulty level. This difficulty level influences the speed of the projectiles and the acceleration of the player's fall.
+* type: tutorial
+* next: falling-duck-py-5
+* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-py-4
+
+### falling-duck-py-5
+
+* name: Falling Duck in Python - Level 5
+* description: Customize the high scores routine for each difficulty level.
 * type: tutorial
 * next: falling-duck-py-finish
-* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-py-4
+* url: https://github.com/robo-technical-group/pxt-tutorials/falling-duck-py-5
 
 ### falling-duck-py-finish
 

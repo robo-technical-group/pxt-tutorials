@@ -94,10 +94,10 @@ extension.
 
 1.  From the   
 ``||miniMenu:Mini Menu||``   
-toolbox, add a   
+drawer, add a   
 ``||variables(miniMenu):set [myMenu] to||``
 ``||miniMenu:create menu sprite menu item ("abc")||``   
-block to **the bottom ** of your   
+block to **the bottom** of your   
 ``||loops(noclick):on start||``   
 container.
 1.  Select the **expand (+)**   
@@ -107,11 +107,11 @@ button at the bottom of the new block to add
 *Easy*, *Intermediate*, and *Difficult*.
 1.  From the   
 ``||miniMenu:Mini Menu||``   
-toolbox, add a   
+drawer, add a   
 ``||variables(miniMenu):[myMenu]||``
 ``||miniMenu:on [A] pressed with||``
 ``||variables(miniMenu):selection selectedIndex||``   
-container to **the bottom ** of your   
+container to **the bottom** of your   
 ``||loops(noclick):on start||``   
 container.
 1.  Using the   
